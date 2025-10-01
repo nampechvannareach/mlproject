@@ -1,3 +1,20 @@
+# Anaconda
+anaconda3/
+anaconda/
+conda/
+Miniconda/
+.miniconda/
+
+# Conda environments
+envs/
+*.tar.gz
+*.conda
+
+# Conda config and cache
+.conda/
+.condarc
+conda-meta/
+pkgs/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -135,6 +152,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.artifacts
 .env
 .envrc
 .venv
